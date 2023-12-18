@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kang Tutor</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="mb-sm-20px">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center container">
+            <a class="navbar-brand fs-2 fw-bold text-white" href="#"
+              >Kang Tutor</a>
+            <ul class="navbar-nav d-flex align-items-center">
+              <li class="nav-item d-none d-sm-none d-md-none d-lg-block">
+                <a
+                  class="nav-link text-white fw-semibold"
+                  aria-current="page"
+                  href="#"
+                  >Beranda</a
+                >
+              </li>
+              <li class="nav-item  d-none d-sm-none d-md-none d-lg-block">
+                <a class="nav-link text-white fw-semibold" href="#">Tutorial</a>
+              </li>
+              <li class="nav-item  d-none d-sm-none d-md-none d-lg-block">
+                <a class="nav-link text-white fw-semibold" href="#"
+                  >Pemrograman</a
+                >
+              </li>
+
+              <li class="nav-item  d-none d-sm-none d-md-none d-lg-block">
+                <a class="nav-link text-white fw-semibold" href="#"
+                  >Texnology
+                </a>
+              </li>
+
+              <li class="nav-item  d-none d-sm-none d-md-none d-lg-block">
+                <a class="nav-link text-white fw-semibold" href="#"
+                  ><span><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></span>
+                </a>
+              </li>
+
+              <li class="nav-item d-block d-sm-block d-md-block d-lg-none">
+                <a class="nav-link text-white fw-semibold" href="#"
+                  ><span><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                </a>
+              </li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                  <div id="carouselExampleIndicators" class="carousel slide col-sm-12 col-lg-9"  style="height: 396px;">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" style="height: 396px;">
+                        <img src="./images/car1.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" style="height: 396px;">
+                        <img src="./images/car2.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" style="height: 396px;">
+                        <img src="./images/car1.webp" class="d-block w-100 " alt="..." >
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+
+                      <button class=" d-flex justify-content-between mt-4 px-2 w-100 p-2 mb-3 rounded-2 text-white fw-bold" style="background: #02A28F; border: none;">
+                        Postingan Terbaru
+                        <a href="#" class="text-white ">Lebih Banyak</a>
+                      </button>
+
+
+                      <div class="row row-cols-1 row-cols-md-2 g-4 pb-5 d-flex">
+                        <div class="col shadow rounded-3 mb-4" style="border: none;">
+                          <div class="card rounded-3" style="border: none;">
+                            <img src="./images/car1.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Ini adalah Judul Artikel</h5>
+                              <p>By Ridho Satriawan</p>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias doloremque assumenda laudantium sint minus magnam vitae aspernatur qui aperiam architecto.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col shadow rounded-3 mb-4" style="border: none;">
+                          <div class="card rounded-3" style="border: none;">
+                            <img src="./images/car2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Ini adalah Judul Artikel</h5>
+                              <p>By Ridho Satriawan</p>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci perferendis vitae ullam quidem. Libero illum debitis repellendus vel aliquam!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col shadow rounded-3 d-sm-none d-md-block" style="border: none;">
+                          <div class="card rounded-3" style="border: none;">
+                            <img src="./images/car2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Ini adalah Judul Artikel</h5>
+                              <p>By Ridho Satriawan</p>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aspernatur expedita quas, iusto impedit optio excepturi delectus eos quibusdam ducimus.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="co shadow rounded-3" style="border: none;">
+                          <div class="card rounded-3" style="border: none;">
+                            <img src="./images/car1.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold">Ini adalah Judul Artikel</h5>
+                              <p>By Ridho Satriawan</p>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quisquam quo officia dolorem maiores fugiat ducimus excepturi! Nihil, ab facere?</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+
+                  <div class="col-3 d-none d-lg-block">
+                    <button class="w-100 p-2 mb-3 rounded-2 text-white fw-bold" style="background: #02A28F; border: none;">Palling Populer</button>
+                    <div class="card mb-3 d-flex align-items-center justify-content-center px-2 mb-4 shadow" style="max-width: 540px; height: 100px; border: none;">
+                      <div class="row g-0">
+                        <div class="col-md-4 align-items-center d-flex">
+                          <img src="./images/car1.webp" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title" style="font-size: 15px;">Ini adalah Judul Artikel</h5>
+                            <p class="card-text" style="font-size: 13px;">22 august 2022</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3 d-flex align-items-center justify-content-center px-2 mb-3 shadow" style="max-width: 540px; height: 100px; border: none;">
+                      <div class="row g-0">
+                        <div class="col-md-4 align-items-center d-flex">
+                          <img src="./images/car2.webp" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title" style="font-size: 15px;">Ini adalah Judul Artikel</h5>
+                            <p class="card-text" style="font-size: 13px;">22 august 2022</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3 d-flex align-items-center justify-content-center px-2 mb-4 shadow" style="max-width: 540px; height: 100px; border: none;">
+                      <div class="row g-0">
+                        <div class="col-md-4 align-items-center d-flex">
+                          <img src="./images/car3.webp" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title" style="font-size: 15px;">Ini adalah Judul Artikel</h5>
+                            <p class="card-text" style="font-size: 13px;">22 august 2022</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <button class="w-100  p-2 mb-3 rounded-2 text-white fw-bold" style="background: #02A28F; border: none;">Kategory</button>
+                    <a href="#" class="m-0 d-flex justify-content-between navbar-brand"> <span>> Label 1</span> <span>(1)</span></a>
+                    <a href="#" class="m-0 d-flex justify-content-between navbar-brand"> <span>> Label 2</span> <span>(2)</span></a>
+                    
+                  </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background: #02A28F; margin-top: 1030px; padding: 20px 0px;">
+        <div class="container">
+          <h5 class="text-white fw-bold text-center ">Copyright@KangTutor</h5>
+        </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
